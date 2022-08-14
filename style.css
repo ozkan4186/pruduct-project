@@ -5,11 +5,13 @@
 }
 body{
     background-color:hsl(30, 38%, 92%) ;
+    
    
 }
 .container{
+    position: fixed;
    display: flex;
-   margin: 25% 25%;
+   margin: 2% 25%;
    /* border: 1px solid red; */
    border-radius: 20px;
 }
@@ -17,6 +19,7 @@ body{
     border-radius: 20px;
 
 }
+
 .section{
     padding: 20px 20px ;
     
@@ -61,6 +64,27 @@ p{
     color: gray;
 }
 .button {
-    text-align: center;
-    padding: 10px 80px;
+
+    /* border: 2px solid red; */
+    display: block;
+    width: 100%;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color:darkgreen;
+    font-family: 'Montserrat', sans-serif;
 }
+.button img{
+    margin-right: 20px;
+    
+}
+#add{
+    color: white;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: aqua;
+}
+
+ 
